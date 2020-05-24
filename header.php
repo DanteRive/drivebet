@@ -1,14 +1,14 @@
 <header class="header">
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo">DRIVEBET</div>
+            <div class="header__logo" href="index.php">DRIVEBET</div>
 
             <nav class="nav">
-                <a class="nav__link" name="about" href="#">About</a>
-                <a class="nav__link" name="service" href="#">Service</a>
-                <a class="nav__link" name="blog" href="#">Blog</a>
+                <a class="nav__link" name="service" href="news.php">News</a>
+                <a class="nav__link" name="blog" href="comments.php">Comments</a>
                 <?php if ($_SESSION['logged_user']) : ?>
                     <a class="nav__link" name="logout" href="components/logout.php">Logout</a>
+                    <a class="nav__link" name="profile" href="profile.php"><?echo $_SESSION['logged_user']->name;?></a>
                 <?php else : ?>
                     <a class="nav__link" name="signup" href="signup.php">Signup</a>
                     <a class="nav__link" name="login" href="login.php">Login</a>

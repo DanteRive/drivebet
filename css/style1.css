@@ -1,0 +1,33 @@
+.container-profile__label {
+
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    height: 50px;
+    right: 0;
+    padding: 20px 0px;
+    width: 300px;
+    margin-left: 68%;
+}
+
+.btn_profile {
+    position: static;
+    width: 120px;
+    font-size: 12px;
+    margin-left: 68%;
+}
+
+.container-profile__btn {
+
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    height: 6px;
+    right: 0;
+    font-size: 12px;
+    padding: 20px 35px;
+    width: 120px;
+    margin-left: 68%;
+}
