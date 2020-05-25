@@ -32,9 +32,9 @@ require "components/db_connect.php";
                 $.post('components/changepass.php', $('form').serialize(),
                     function(data) {
                         if (data == '1') {
-                            alert("Хорошо")
+                            alert("Пароль изменен")
                         } else {
-                            alert("Данные были введены не верно, либо аккаунта не существует")
+                            alert("Данные были введены не верно, проверьте правильность ввода")
                         }
                     }
                 );
