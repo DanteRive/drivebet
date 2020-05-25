@@ -38,9 +38,10 @@ require "components/db_connect.php";
                 $.post('components/register.php', $('form').serialize(),
                     function(data) {
                         if (data == '1') {
+                            alert("Регистрация прошла успешно")
                             document.location.href = "index.php";
                         } else {
-                            alert("Информация была введена не верно, либо аккаунт уже зарегистрирован");
+                            alert(data);
                         }
                     }
                 );
