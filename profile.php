@@ -12,6 +12,7 @@ require "components/db_connect.php";
  <ul class="list-group list-group-flush">
   <li class="list-group-item container-profile__label">Ваше имя: <?=$_SESSION['logged_user']->name;?> </li>
   <li class="list-group-item container-profile__label">Ваша почта: <?=$_SESSION['logged_user']->email;?> </li>
+  <li class="list-group-item container-profile__label">Ставка: <?=$_SESSION['logged_user']->bet;?>$ на <?=$_SESSION['logged_user']->bteam;?>   </li>
 </ul>
 <form action="components/changepass.php" method="post">
 <br>

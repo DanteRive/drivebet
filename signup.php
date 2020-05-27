@@ -39,7 +39,7 @@ require "components/db_connect.php";
                     function(data) {
                         if (data == '1') {
                             alert("Регистрация прошла успешно")
-                            document.location.href = "index.php";
+                            document.location.href = "login.php";
                         } else {
                             alert(data);
                         }

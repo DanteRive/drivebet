@@ -149,11 +149,20 @@ p {
   .comments-block {
     position: absolute;
     right: 10%;
+    top: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.comments-block_item{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* news */
 
 .news {
@@ -163,4 +172,13 @@ p {
     flex-direction: column;
     justify-content: center;
    
+}
+
+/* norma */
+
+.dinamo {
+    position: absolute;
+    right: 10%;
+    width: 900px;
+    height: 1100px;
 }

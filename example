@@ -1,0 +1,36 @@
+<?php
+require "components/db_connect.php";
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<?php include 'head.php';?>
+</head>
+<body>
+ <?php include 'header.php';?>
+<div class="intro"></div>
+<?php include 'footer.php';?>
+</body>
+</html>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xK14h5x0JcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<script type='text/javascript'>
+window.onload = () => {
+    var buttons = document.getElementsByClassName("btn");
+    if (buttons.length > 0) {
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].onclick = receiver(buttons[i]);
+        }
+    }
+};
+function receiver(val) {
+    return function(){
+        
+        alert("Команда: " + val.value);
+        
+        };
+}
+</script>

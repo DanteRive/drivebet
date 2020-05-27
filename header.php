@@ -4,6 +4,8 @@
             <div class="header__logo" href="index.php">DRIVEBET</div>
 
             <nav class="nav">
+                <a class="nav__link" name="service" href="promo.php">Promo</a>
+                <a class="nav__link" name="service" href="bets.php">Bets</a>
                 <a class="nav__link" name="service" href="news.php">News</a>
                 <a class="nav__link" name="blog" href="comments.php">Comments</a>
                 <?php if ($_SESSION['logged_user']) : ?>
