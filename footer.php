@@ -9,7 +9,6 @@
                 <a class="foot_nav__link" name="about" href="#"><img src="images/Facebook.png" alt=""></a>
                 <a class="foot_nav__link" name="about" href="#"><img src="images/Google +.png" alt=""></a>
                 <a class="foot_nav__link" name="about" href="#"><img src="images/INST.png" alt=""></a>
-                <a class="foot_nav__link" name="blog" href="#"><img src="images/INSTAGRAM.png" alt=""></a>
                 <a class="foot_nav__link" name="blog" href="#"><img src="images/Twitter.png" alt=""></a>
                 <a class="foot_nav__link" name="blog" href="#"><img src="images/vk.png" alt=""></a>
             </nav>

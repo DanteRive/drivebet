@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo" href="index.php">DRIVEBET</div>
+            <a class="header__logo" href="index.php">DRIVEBET</a>
 
             <nav class="nav">
                 <a class="nav__link" name="service" href="promo.php">Promo</a>

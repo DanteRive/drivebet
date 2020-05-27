@@ -10,7 +10,6 @@ require "components/db_connect.php";
 <body>
  <?php include 'header.php';?>
 <div class="intro">
-
 </div>
 <?php include 'footer.php';?>
 </body>
