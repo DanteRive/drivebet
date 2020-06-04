@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header__inner">
             <a class="header__logo" href="index.php">DRIVEBET</a>
-
+            <a id="specialButton" href="#"><img src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /></a>
             <nav class="nav">
                 <a class="nav__link" name="service" href="promo.php">Promo</a>
                 <a class="nav__link" name="service" href="bets.php">Bets</a>
